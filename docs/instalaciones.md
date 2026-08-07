@@ -9,3 +9,15 @@
 - **Para qué lo uso:** se instaló automático como dependencia de pydantic-settings — es lo que realmente "lee" el archivo .env por debajo
 - **Instalado:** se instaló solo, junto con pydantic-settings
 - **Versión:** 1.2.2
+
+## fastapi
+- **Qué es:** framework de Python para construir APIs web
+- **Para qué lo uso:** es el backend que va a recibir los comandos (texto/voz) y regresar respuestas
+- **Instalado:** `pip install fastapi`
+- **Versión:** 0.141.1
+
+## uvicorn
+- **Qué es:** servidor ASGI — el programa que realmente "levanta" y corre tu app de FastAPI, poniéndola a escuchar peticiones en un puerto
+- **Para qué lo uso:** sin esto, FastAPI es solo código definido, no algo corriendo de verdad
+- **Instalado:** `pip install uvicorn`
+- **Versión:** 0.52.1
