@@ -21,3 +21,9 @@
 - **Para qué lo uso:** sin esto, FastAPI es solo código definido, no algo corriendo de verdad
 - **Instalado:** `pip install uvicorn`
 - **Versión:** 0.52.1
+
+## google-genai
+- **Qué es:** SDK oficial de Python de Google para hablar con los modelos Gemini
+- **Para qué lo uso:** conectar el backend con el LLM (function calling) para que NOVA decida qué acción ejecutar
+- **Instalado:** `pip install google-genai`
+- **Versión:** (revisa con `pip show google-genai`)
