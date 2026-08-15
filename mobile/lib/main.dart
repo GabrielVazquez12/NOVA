@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'nova_orb.dart';
 import 'nova_state.dart';
 import 'nova_api.dart';
+import 'nova_voice.dart';
 
 void main() {
   runApp(const NovaApp());
@@ -29,6 +30,12 @@ class NovaHomePage extends StatefulWidget {
 
 class _NovaHomePageState extends State<NovaHomePage> {
   String _reply = '';
+
+  @override
+  void initState() {
+    super.initState();
+    NovaVoice.speak('Bienvenido, señor');
+  }
 
   Future<void> _testBackend() async {
     final reply = await NovaApi.sendMessage('¿Cómo está el clima en Saltillo?');

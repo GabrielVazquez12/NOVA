@@ -27,3 +27,15 @@
 - **Para qué lo uso:** conectar el backend con el LLM (function calling) para que NOVA decida qué acción ejecutar
 - **Instalado:** `pip install google-genai`
 - **Versión:** (revisa con `pip show google-genai`)
+
+## http (Flutter/Dart)
+- **Qué es:** paquete oficial de Dart para hacer peticiones HTTP
+- **Para qué lo uso:** conectar la app Flutter con el backend FastAPI (endpoint /chat)
+- **Instalado:** `flutter pub add http`
+- **Versión:** 1.6.0
+
+## flutter_tts (Flutter/Dart)
+- **Qué es:** paquete que da acceso al motor de texto-a-voz (TTS) nativo del sistema operativo
+- **Para qué lo uso:** que NOVA "hable" sus respuestas en voz alta, en vez de solo mostrarlas en texto
+- **Instalado:** `flutter pub add flutter_tts`
+- **Versión:** 4.2.5
